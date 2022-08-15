@@ -6,6 +6,13 @@
 ## Introducción
 Hemos aprendido que a través del método `.addEventListener()`, podemos hacer que un elemento DOM escuche cuando succeda un evento específico y ejecute un bloque de código cuando se detecte el evento. Es hora de poner en práctica nuestros aprendizajes. 
 
+### Funcionalidad del Código
+
+En éste lab harás que:
+- Aparezca una alerta en el navegador cuando des click sobre `bird`
+- Aparezca una alerta en el navegador cuando des click sobre `sky`
+
+
 ## Instrucciones
 Bifurca (fork) y clona (clone) este lab en tu entorno local. Navega a su directorio en la terminal, luego ejecuta el comando `code .` para abrir sus archivos en Visual Studio Code. 
 
