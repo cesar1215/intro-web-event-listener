@@ -4,6 +4,7 @@
 2. Crear una variable sky el elemento con clase .sky
 */
 let bird = document.querySelector(".bird")
+let sky = document.querySelector(".sky")
 
 
 /* Ejercicio 2. 
@@ -15,7 +16,9 @@ con el código:
 alert("Bird dice: Me llamo Bird!")
 */
 
-
+bird.addEventListener("click",function(){
+    alert("Bird dice : Hola me llamo bird")
+} )
 
 
 /*
@@ -26,7 +29,9 @@ alert("El cielo dice: Se espera un dia soleado")
 */
 
 
-
+function mensajeCielo(){
+    alert("El cielo dice: se espera un dia soleado")   
+}
 
 /*
 Ejercicio 4.
@@ -35,3 +40,5 @@ Pista: utiliza la variable sky que creaste anteriormente
 Cuando un usuario de click sobre el elemento sky, se debe 
 llamar a la función mensajeCielo que creaste anteriormenteå
 */
+
+sky.addEventListener("click", mensajeCielo)
